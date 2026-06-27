@@ -144,13 +144,13 @@ if [ "$NICHE" != "0" ]; then
   echo -e "${YELLOW}── Installing Niche Skills ───────────────────────${NC}"
   
   case "$NICHE" in
-    1) NICHE_LIST="real-estate-skill";;
+    1) NICHE_LIST="real-estate-skill real-estate-investing real-estate-listing-writer";;
     2) NICHE_LIST="afrexai-roofing-contractor afrexai-painting-contractor";;
-    3) NICHE_LIST="bookkeeping-basics accountant";;
-    4) NICHE_LIST="medical";;
-    5) NICHE_LIST="website";;
-    6) NICHE_LIST="eb-marketing marketing-analytics marketing-plan";;
-    7) NICHE_LIST="real-estate-skill afrexai-roofing-contractor afrexai-painting-contractor bookkeeping-basics accountant medical website eb-marketing marketing-analytics marketing-plan";;
+    3) NICHE_LIST="bookkeeping-basics personal-bookkeeper accountant accounting";;
+    4) NICHE_LIST="medical medical-terms medical-auditor";;
+    5) NICHE_LIST="website website-seo website-structure-analyzer";;
+    6) NICHE_LIST="eb-marketing marketing-analytics marketing-plan marketing-genius pls-marketing-ideas";;
+    7) NICHE_LIST="real-estate-skill real-estate-investing real-estate-listing-writer afrexai-roofing-contractor afrexai-painting-contractor bookkeeping-basics personal-bookkeeper accountant accounting medical medical-terms medical-auditor website website-seo website-structure-analyzer eb-marketing marketing-analytics marketing-plan marketing-genius pls-marketing-ideas";;
     8) NICHE_LIST="$NICHE"; echo -e "  ${YELLOW}Custom selection — will handle by number mapping${NC}";;
     *) NICHE_LIST="";;
   esac

@@ -28,11 +28,24 @@
 | Industry | Skills |
 |----------|--------|
 | 🏘️ Real Estate | `real-estate-skill` — property decisions, buying/selling, investing |
-| 🔨 Contractors | `afrexai-roofing-contractor` + `afrexai-painting-contractor` — estimating, materials, compliance |
-| 📒 Bookkeeping | `bookkeeping-basics` + `accountant` — expenses, reconciliation, financial reports |
+| | `real-estate-investing` — underwriting, financing stress tests |
+| | `real-estate-listing-writer` — MLS-ready listings + social media variants |
+| 🔨 Contractors | `afrexai-roofing-contractor` — estimating, materials, insurance claims |
+| | `afrexai-painting-contractor` — pricing, crew management, scaling |
+| 📒 Bookkeeping | `bookkeeping-basics` — expenses, reconciliation, financial reports |
+| | `personal-bookkeeper` — double-entry personal/business ledger |
+| | `accounting` / `accountant` — deeper accounting practice |
 | 🏥 Medical | `medical` — local-first health records, strict privacy |
+| | `medical-terms` — plain-English lab results &amp; prescriptions |
+| | `medical-auditor` — revenue leakage detection from surgical logs |
 | 🌐 Website Design | `website` — fast, accessible, SEO-friendly sites |
-| 📊 Marketing Teams | `eb-marketing` + `marketing-analytics` + `marketing-plan` — full-stack marketing execution |
+| | `website-seo` — on-page SEO, schema markup, Core Web Vitals |
+| | `website-structure-analyzer` — competitive site analysis |
+| 📊 Marketing Teams | `eb-marketing` — full-stack marketing execution |
+| | `marketing-analytics` — campaign performance reports |
+| | `marketing-plan` — research-backed plans with Word output |
+| | `marketing-genius` — buyer psychology + ad copy |
+| | `pls-marketing-ideas` — campaign concepts + viral hooks |
 
 ## Prerequisites
 
