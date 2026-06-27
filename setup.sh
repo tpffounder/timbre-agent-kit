@@ -132,7 +132,35 @@ echo -e "  ${GREEN}✓${NC} OpenClaw installed"
 # ── Install Core Skills ──
 echo ""
 echo -e "${YELLOW}── Installing Skills ──────────────────────────────${NC}"
-CORE_SKILLS="market-research-agent copywriting-pro tiktok-growth outbound-prospecting cold-email-writer yc-cold-outreach email-outreach-ops weekly-report-generator memory-setup-openclaw founder strategy business growth crm project-planner"
+CORE_SKILLS="market-research-agent copywriting-pro tiktok-growth outbound-prospecting cold-email-writer yc-cold-outreach email-outreach-ops weekly-report-generator memory-setup-openclaw founder strategy business growth crm project-planner self-improving humanizer ontology"
+
+# ── Optional Proactive Skills ──
+echo ""
+echo -e "${YELLOW}── Proactive Agent Skills ─────────────────────────${NC}"
+echo "  Would you like to install proactive agent skills?"
+echo "  These make agents anticipate needs and self-improve over time."
+echo "  y) Yes — install both proactive-agent-lite + ontology"
+echo "  n) No — skip (default)"
+read -p "  Choice [n]: " PROACTIVE_CHOICE
+if [ "$PROACTIVE_CHOICE" = "y" ]; then
+  for skill in proactive-agent-lite ontology; do
+    echo -ne "  ${skill}... "
+    openclaw skills install "$skill" 2>/dev/null && echo -e "${GREEN}✓${NC}" || echo -e "${YELLOW}⚠${NC} (already installed)"
+  done
+fi
+
+# ── Social Media Skills ──
+echo ""
+echo -e "${YELLOW}── Social Media Skills ────────────────────────────${NC}"
+echo "  Would you like to install social media publishing skills?"
+echo "  socialclaw lets agents schedule/post to X, LinkedIn, Instagram, TikTok, etc."
+echo "  y) Yes — install socialclaw"
+echo "  n) No — skip (default)"
+read -p "  Choice [n]: " SOCIAL_CHOICE
+if [ "$SOCIAL_CHOICE" = "y" ]; then
+  echo -ne "  socialclaw... "
+  openclaw skills install "socialclaw" 2>/dev/null && echo -e "${GREEN}✓${NC}" || echo -e "${YELLOW}⚠${NC} (already installed)"
+fi
 for skill in $CORE_SKILLS; do
   echo -ne "  ${skill}... "
   openclaw skills install "$skill" 2>/dev/null && echo -e "${GREEN}✓${NC}" || echo -e "${YELLOW}⚠${NC} (already installed)"
@@ -244,7 +272,7 @@ echo -e "${CYAN}╚════════════════════�
 echo ""
 echo -e "  ${GREEN}✓${NC} OpenClaw engine installed"
 echo -e "  ${GREEN}✓${NC} DeepSeek V4 configured"
-echo -e "  ${GREEN}✓${NC} Core skills (15) installed"
+echo -e "  ${GREEN}✓${NC} Core skills (18) installed"
 echo -e "  ${GREEN}✓${NC} 7 agents deployed"
 echo -e "  ${GREEN}✓${NC} Decision Council framework ready"
 if [ "$NICHE" != "0" ]; then
