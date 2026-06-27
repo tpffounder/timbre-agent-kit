@@ -1,0 +1,26 @@
+{
+  "models": {
+    "default": "deepseek/deepseek-v4-flash",
+    "deepseek/deepseek-v4-flash": {
+      "apiKey": "YOUR_DEEPSEEK_API_KEY",
+      "baseUrl": "https://api.deepseek.com"
+    },
+    "deepseek/deepseek-v4-pro": {
+      "apiKey": "YOUR_DEEPSEEK_API_KEY",
+      "baseUrl": "https://api.deepseek.com"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "token": "YOUR_TELEGRAM_BOT_TOKEN",
+      "groupPolicy": "open",
+      "groups": {
+        "*": {
+          "enabled": true,
+          "requireMention": false
+        }
+      }
+    }
+  }
+}
