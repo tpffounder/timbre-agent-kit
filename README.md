@@ -21,8 +21,17 @@
 
 ## Skills Installed
 
-### Core (always installed)
-`market-research-agent` · `copywriting-pro` · `tiktok-growth` · `outbound-prospecting` · `cold-email-writer` · `yc-cold-outreach` · `email-outreach-ops` · `weekly-report-generator` · `memory-setup-openclaw`
+### Core (always installed) — 15 skills
+`market-research-agent` · `copywriting-pro` · `tiktok-growth` · `outbound-prospecting` · `cold-email-writer` · `yc-cold-outreach` · `email-outreach-ops` · `weekly-report-generator` · `memory-setup-openclaw` · `founder` · `strategy` · `business` · `growth` · `crm` · `project-planner`
+
+| Core Skill | Why It's Universal |
+|-----------|-------------------|
+| `founder` | Product-market fit, fundraising, team building, founder resilience — applies to any business owner |
+| `strategy` | Strategic frameworks with cognitive bias protection — decision-making for any operation |
+| `business` | Validate ideas, build strategy, make decisions with proven frameworks |
+| `growth` | Acquisition loops, activation mechanics, retention systems — revenue multiplier |
+| `crm` | Client/lead/investor tracking from simple files to structured database |
+| `project-planner` | Triage ideas into proposals, feature issues, or action plans with GitHub integration |
 
 ### Niche Skills (select during install)
 | Industry | Skills |
