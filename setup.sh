@@ -132,7 +132,7 @@ echo -e "  ${GREEN}✓${NC} OpenClaw installed"
 # ── Install Core Skills ──
 echo ""
 echo -e "${YELLOW}── Installing Skills ──────────────────────────────${NC}"
-CORE_SKILLS="market-research-agent copywriting-pro tiktok-growth outbound-prospecting cold-email-writer yc-cold-outreach email-outreach-ops weekly-report-generator memory-setup-openclaw founder strategy business growth crm project-planner self-improving humanizer ontology skillguard skill-firewall openclaw-backup"
+CORE_SKILLS="market-research-agent copywriting-pro tiktok-growth outbound-prospecting cold-email-writer yc-cold-outreach email-outreach-ops weekly-report-generator memory-setup-openclaw founder strategy business growth crm project-planner self-improving humanizer ontology skillguard skill-firewall openclaw-backup workflow-skillify openclaw-cron-setup"
 
 # ── Optional Proactive Skills ──
 echo ""
@@ -272,7 +272,7 @@ echo -e "${CYAN}╚════════════════════�
 echo ""
 echo -e "  ${GREEN}✓${NC} OpenClaw engine installed"
 echo -e "  ${GREEN}✓${NC} DeepSeek V4 configured"
-echo -e "  ${GREEN}✓${NC} Core skills (21) installed"
+echo -e "  ${GREEN}✓${NC} Core skills (23) installed"
 echo -e "  ${GREEN}✓${NC} 7 agents deployed"
 echo -e "  ${GREEN}✓${NC} Decision Council framework ready"
 if [ "$NICHE" != "0" ]; then
