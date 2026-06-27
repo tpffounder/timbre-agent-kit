@@ -21,7 +21,18 @@
 
 ## Skills Installed
 
+### Core (always installed)
 `market-research-agent` · `copywriting-pro` · `tiktok-growth` · `outbound-prospecting` · `cold-email-writer` · `yc-cold-outreach` · `email-outreach-ops` · `weekly-report-generator` · `memory-setup-openclaw`
+
+### Niche Skills (select during install)
+| Industry | Skills |
+|----------|--------|
+| 🏘️ Real Estate | `real-estate-skill` — property decisions, buying/selling, investing |
+| 🔨 Contractors | `afrexai-roofing-contractor` + `afrexai-painting-contractor` — estimating, materials, compliance |
+| 📒 Bookkeeping | `bookkeeping-basics` + `accountant` — expenses, reconciliation, financial reports |
+| 🏥 Medical | `medical` — local-first health records, strict privacy |
+| 🌐 Website Design | `website` — fast, accessible, SEO-friendly sites |
+| 📊 Marketing Teams | `eb-marketing` + `marketing-analytics` + `marketing-plan` — full-stack marketing execution |
 
 ## Prerequisites
 
